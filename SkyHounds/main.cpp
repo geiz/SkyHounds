@@ -40,7 +40,7 @@ void SystemInitialize () {
 	}
 
 	s_system.display = al_create_display (640, 480);
-	if (s_system.display) {
+	if (!s_system.display) {
 		breakpoint ();
 		exit (-1);
 	}
