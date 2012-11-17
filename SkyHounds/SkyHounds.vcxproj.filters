@@ -29,5 +29,8 @@
     <ClInclude Include="porting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
